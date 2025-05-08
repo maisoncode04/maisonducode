@@ -142,4 +142,6 @@
   </a>
 </body>
 </html>
-https://www.paypal.com/sdk/js?client-id=AQEL77WZpX492lfMegFMqwcoL_TGg1VL3fUEXn3b9vT0Pax59dbSxBKzcHQA2QyMN3_2_fW12nC1XhNp&vault=true&intent=subscription
+<a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-8LE541420T0715133NAOASOY" target="_blank" style="background:gold;color:black;padding:14px 28px;border-radius:12px;text-decoration:none;font-weight:bold;font-size:16px;display:inline-block;">
+  Suscribirme al Curso Avanzado
+</a>
