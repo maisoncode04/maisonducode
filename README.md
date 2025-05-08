@@ -15,23 +15,18 @@
     header {
       text-align: center;
       padding: 2rem;
-      background: #000000;
-      background-image: url('https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=1600&q=80');
-      background-size: cover;
-      background-position: center;
-      color: white;
+      background: #000;
     }
 
     header h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
       margin: 0;
-      text-shadow: 2px 2px 5px #000;
     }
 
     .subtitulo {
-      font-size: 1.3rem;
+      color: #ffffffcc;
+      font-size: 1.2rem;
       margin-top: 0.5rem;
-      text-shadow: 1px 1px 4px #000;
     }
 
     .contenido {
@@ -54,52 +49,46 @@
       padding: 1.5rem;
       border-radius: 10px;
       box-shadow: 0 0 10px #f1c40f33;
-      color: white;
+    }
+
+    .tarjeta h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
     }
 
     .tarjeta img {
       width: 100%;
-      border-radius: 8px;
+      height: auto;
+      border-radius: 10px;
       margin-bottom: 1rem;
     }
 
-    .tarjeta h2 {
-      font-size: 1.6rem;
-      margin-bottom: 0.8rem;
-    }
-
     .tarjeta p {
-      line-height: 1.6;
-      font-size: 1rem;
+      line-height: 1.5;
     }
 
-    .boton {
+    .boton,
+    .pago {
       display: inline-block;
       background: #f1c40f;
       color: #000;
-      padding: 0.8rem 1.5rem;
+      padding: 1rem 2rem;
       border-radius: 8px;
       font-weight: bold;
       text-decoration: none;
-      margin-top: 1rem;
-      transition: 0.3s ease;
+      margin-top: 1.5rem;
     }
 
-    .boton:hover {
+    .boton:hover,
+    .pago:hover {
       background: #d4ac0d;
     }
 
     footer {
       text-align: center;
       padding: 2rem;
-      color: #ccc;
-      font-size: 0.95rem;
-    }
-
-    .contacto {
-      margin-top: 2rem;
-      text-align: center;
-      font-size: 1rem;
+      color: #888;
+      font-size: 0.9rem;
     }
 
     .whatsapp {
@@ -128,41 +117,47 @@
   </header>
 
   <div class="contenido">
-    <p>Curso 100% online, en vivo y práctico. Desde nivel principiante hasta experto. Aprendé con apoyo personalizado y obtené experiencia real.</p>
+    <p>Curso 100% online en vivo y práctico. Desde nivel principiante hasta experto. Aprendé con apoyo personalizado y obtené experiencia real.</p>
 
     <div class="seccion">
       <div class="tarjeta">
-        <img src="https://images.unsplash.com/photo-1581092919534-520aed937b7b?auto=format&fit=crop&w=800&q=80" alt="Curso Avanzado">
-        <h2>Curso Avanzado</h2>
+        <img src="file-UQn66zRDfBPVCVeN5SgVMS" alt="Curso Avanzado">
+        <h2>CURSO AVANZADO</h2>
         <p>
           Enfocado en fundamentos sólidos y proyectos reales.<br>
           Cursos de 3 a 6 meses.<br>
           Certificado y acceso a oportunidades laborales.
         </p>
-        <a class="boton" href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-27Y27559LY955542HNAOBRGI" target="_blank">Inscribirme - $500</a>
+        <a class="pago" href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-27Y27559LY955542HNAOBRGI" target="_blank">Suscribirme al Curso Avanzado</a>
       </div>
 
       <div class="tarjeta">
-        <img src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?auto=format&fit=crop&w=800&q=80" alt="Curso Experto">
-        <h2>Curso Experto</h2>
+        <img src="file-YUTaRm3ULbAo2Z5hVKRAY9" alt="Curso Experto">
+        <h2>CURSO EXPERTO</h2>
         <p>
           Desarrollo profesional: backend, APIs, y proyectos avanzados.<br>
           Postulaciones a empresas y asesoría en propuestas laborales.<br>
           Acceso exclusivo a herramientas y red profesional.
         </p>
-        <a class="boton" href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-42W834552H3420805NAOBT2I" target="_blank">Inscribirme - $1000</a>
+        <a class="pago" href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-42W834552H3420805NAOBT2I" target="_blank">Suscribirme al Curso Experto</a>
       </div>
     </div>
 
-    <div class="contacto">
-      ¿Problemas con el pago? Contáctanos al <a href="https://wa.me/50670386023" target="_blank">+506 7038 6023</a>
-    </div>
+    <p><strong>No enseñamos lo básico. Enseñamos cómo ganar con código.</strong></p>
+    <p>Aprendé hoy lo que otros te enseñan en años.</p>
+    <p>Maison du Code. Tu puerta a la élite tecnológica.</p>
+
+    <a class="boton" href="https://wa.me/50670386023" target="_blank">Inscribirme ahora</a>
+
+    <p style="margin-top: 2rem;"><strong>¿Problemas con el pago? Contáctanos al <a href="https://wa.me/50670386023" style="color: #f1c40f;">+506 7038 6023</a></strong></p>
   </div>
 
   <footer>
     Si te unes a los programas, te incluimos entre los que se actualizan constantemente.
   </footer>
 
-  <a class="whatsapp" href="https://wa.me/50670386023" target="_blank" title="Contáctanos por WhatsApp">&#x1F4AC;</a>
+  <a class="whatsapp" href="https://wa.me/50670386023" target="_blank" title="Contáctanos por WhatsApp">
+    &#x1F4AC;
+  </a>
 </body>
 </html>
