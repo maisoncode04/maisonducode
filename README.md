@@ -8,14 +8,15 @@
     body {
       margin: 0;
       font-family: 'Georgia', serif;
-      background: #0a0a0a;
+      background: url('https://images.unsplash.com/photo-1605902711622-cfb43c44367e?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
+      background-size: cover;
       color: #f1c40f;
     }
 
     header {
       text-align: center;
       padding: 2rem;
-      background: #000000;
+      background: rgba(0, 0, 0, 0.8);
     }
 
     header h1 {
@@ -33,6 +34,8 @@
       padding: 2rem;
       max-width: 1000px;
       margin: auto;
+      background-color: rgba(0, 0, 0, 0.8);
+      border-radius: 10px;
     }
 
     .seccion {
@@ -45,7 +48,7 @@
 
     .tarjeta {
       flex: 1 1 45%;
-      background: #111111;
+      background: #111111cc;
       padding: 1.5rem;
       border-radius: 10px;
       box-shadow: 0 0 10px #f1c40f33;
@@ -60,7 +63,7 @@
       line-height: 1.5;
     }
 
-    .boton {
+    .boton, .boton-paypal {
       display: inline-block;
       background: #f1c40f;
       color: #000;
@@ -71,11 +74,18 @@
       margin-top: 2rem;
     }
 
+    .paypal-section {
+      margin-top: 3rem;
+      text-align: center;
+    }
+
     footer {
       text-align: center;
       padding: 2rem;
-      color: #888;
+      color: #ccc;
       font-size: 0.9rem;
+      background-color: rgba(0, 0, 0, 0.6);
+      margin-top: 3rem;
     }
 
     .whatsapp {
@@ -131,6 +141,13 @@
     <p>Maison du Code. Tu puerta a la élite tecnológica.</p>
 
     <a class="boton" href="https://wa.me/50670386023" target="_blank">Inscribirme ahora</a>
+
+    <div class="paypal-section">
+      <h2>Suscribite ahora por PayPal</h2>
+      <a class="boton-paypal" href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-8LE541420T0715133NAOASOY" target="_blank">
+        Ir a Pago Seguro
+      </a>
+    </div>
   </div>
 
   <footer>
@@ -142,6 +159,9 @@
   </a>
 </body>
 </html>
-<a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-8LE541420T0715133NAOASOY" target="_blank" style="background:gold;color:black;padding:14px 28px;border-radius:12px;text-decoration:none;font-weight:bold;font-size:16px;display:inline-block;">
-  Suscribirme al Curso Avanzado
-</a>
+ 
+
+   
+ 
+
+   
