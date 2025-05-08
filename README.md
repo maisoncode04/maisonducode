@@ -8,34 +8,34 @@
     body {
       margin: 0;
       font-family: 'Georgia', serif;
-      background: url('https://images.unsplash.com/photo-1605902711622-cfb43c44367e?auto=format&fit=crop&w=1600&q=80') no-repeat center center fixed;
-      background-size: cover;
+      background: url('https://www.transparenttextures.com/patterns/asfalt-dark.png');
       color: #f1c40f;
     }
 
     header {
       text-align: center;
-      padding: 2rem;
-      background: rgba(0, 0, 0, 0.8);
+      padding: 4rem 2rem;
+      background: url('https://images.unsplash.com/photo-1545239351-1141bd82e8a6?auto=format&fit=crop&w=1500&q=80') center/cover no-repeat;
+      color: #fff;
+      box-shadow: 0 2px 10px #000;
     }
 
     header h1 {
-      font-size: 2.5rem;
+      font-size: 3rem;
       margin: 0;
+      text-shadow: 2px 2px 5px #000;
     }
 
     .subtitulo {
-      color: #ffffffcc;
-      font-size: 1.2rem;
-      margin-top: 0.5rem;
+      font-size: 1.3rem;
+      margin-top: 1rem;
+      text-shadow: 1px 1px 3px #000;
     }
 
     .contenido {
       padding: 2rem;
       max-width: 1000px;
       margin: auto;
-      background-color: rgba(0, 0, 0, 0.8);
-      border-radius: 10px;
     }
 
     .seccion {
@@ -48,10 +48,11 @@
 
     .tarjeta {
       flex: 1 1 45%;
-      background: #111111cc;
+      background: #111111e6;
       padding: 1.5rem;
-      border-radius: 10px;
-      box-shadow: 0 0 10px #f1c40f33;
+      border-radius: 12px;
+      box-shadow: 0 0 15px #f1c40f40;
+      text-align: center;
     }
 
     .tarjeta h2 {
@@ -59,11 +60,16 @@
       margin-bottom: 1rem;
     }
 
+    .tarjeta img {
+      width: 100px;
+      margin-bottom: 1rem;
+    }
+
     .tarjeta p {
       line-height: 1.5;
     }
 
-    .boton, .boton-paypal {
+    .boton {
       display: inline-block;
       background: #f1c40f;
       color: #000;
@@ -71,20 +77,20 @@
       border-radius: 8px;
       font-weight: bold;
       text-decoration: none;
-      margin-top: 2rem;
+      margin-top: 1.5rem;
+      transition: background 0.3s;
     }
 
-    .paypal-section {
-      margin-top: 3rem;
-      text-align: center;
+    .boton:hover {
+      background: #d4ac0d;
     }
 
     footer {
       text-align: center;
       padding: 2rem;
-      color: #ccc;
+      color: #aaa;
       font-size: 0.9rem;
-      background-color: rgba(0, 0, 0, 0.6);
+      background: #000;
       margin-top: 3rem;
     }
 
@@ -118,50 +124,35 @@
 
     <div class="seccion">
       <div class="tarjeta">
+        <img src="https://cdn-icons-png.flaticon.com/512/1077/1077063.png" alt="Plan Avanzado">
         <h2>CURSO AVANZADO</h2>
-        <p>
-          Enfocado en fundamentos sólidos y proyectos reales.<br>
-          Cursos de 3 a 6 meses.<br>
-          Certificado y acceso a oportunidades laborales.
-        </p>
+        <p>Enfocado en fundamentos sólidos y proyectos reales.<br>Cursos de 3 a 6 meses.<br>Certificado y acceso a oportunidades laborales.</p>
+        <a class="boton" href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-27Y27559LY955542HNAOBRGI" target="_blank">Suscribirme al Avanzado</a>
       </div>
 
       <div class="tarjeta">
+        <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="Plan Experto">
         <h2>CURSO EXPERTO</h2>
-        <p>
-          Desarrollo profesional: backend, APIs, y proyectos avanzados.<br>
-          Postulaciones a empresas y asesoría en propuestas laborales.<br>
-          Acceso exclusivo a herramientas y red profesional.
-        </p>
+        <p>Desarrollo profesional: backend, APIs, y proyectos avanzados.<br>Postulaciones a empresas y asesoría en propuestas laborales.<br>Acceso exclusivo a herramientas y red profesional.</p>
+        <a class="boton" href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-42W834552H3420805NAOBT2I" target="_blank">Suscribirme al Experto</a>
       </div>
     </div>
 
     <p><strong>No enseñamos lo básico. Enseñamos cómo ganar con código.</strong></p>
-    <p>Aprendé hoy lo que otros te enseñan en años.</p>
     <p>Maison du Code. Tu puerta a la élite tecnológica.</p>
-
-    <a class="boton" href="https://wa.me/50670386023" target="_blank">Inscribirme ahora</a>
-
-    <div class="paypal-section">
-      <h2>Suscribite ahora por PayPal</h2>
-      <a class="boton-paypal" href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-8LE541420T0715133NAOASOY" target="_blank">
-        Ir a Pago Seguro
-      </a>
-    </div>
+    <p style="margin-top: 3rem;"><strong>¿Problemas con el pago? Contáctanos al <a href="https://wa.me/50670386023" target="_blank" style="color: #f1c40f;">+506 7038 6023</a></strong></p>
   </div>
 
   <footer>
     Si te unes a los programas, te incluimos entre los que se actualizan constantemente.
   </footer>
 
-  <a class="whatsapp" href="https://wa.me/50670386023" target="_blank" title="Contáctanos por WhatsApp">
-    &#x1F4AC;
-  </a>
+  <a class="whatsapp" href="https://wa.me/50670386023" target="_blank" title="Contáctanos por WhatsApp">&#x1F4AC;</a>
 </body>
 </html>
  
+      
 
-   
- 
+    
 
    
