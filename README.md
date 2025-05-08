@@ -142,24 +142,4 @@
   </a>
 </body>
 </html>
-<div id="paypal-button-container-P-8LE541420T0715133NAOASOY"></div>
-<script src="https://www.paypal.com/sdk/js?client-id=AQEL77WZpX492lfMegFMqwcoL_TGg1VL3fUEXn3b9vT0Pax59dbSxBKzcHQA2QyMN3_2_fW12nC1XhNp&vault=true&intent=subscription" data-sdk-integration-source="button-factory"></script>
-<script>
-  paypal.Buttons({
-      style: {
-          shape: 'rect',
-          color: 'black',
-          layout: 'vertical',
-          label: 'subscribe'
-      },
-      createSubscription: function(data, actions) {
-        return actions.subscription.create({
-          /* Creates the subscription */
-          plan_id: 'P-8LE541420T0715133NAOASOY'
-        });
-      },
-      onApprove: function(data, actions) {
-        alert(data.subscriptionID); // You can add optional success message for the subscriber here
-      }
-  }).render('#paypal-button-container-P-8LE541420T0715133NAOASOY'); // Renders the PayPal button
-</script>
+https://www.paypal.com/sdk/js?client-id=AQEL77WZpX492lfMegFMqwcoL_TGg1VL3fUEXn3b9vT0Pax59dbSxBKzcHQA2QyMN3_2_fW12nC1XhNp&vault=true&intent=subscription
