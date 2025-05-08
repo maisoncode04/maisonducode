@@ -15,7 +15,7 @@
     header {
       text-align: center;
       padding: 2rem;
-      background: #000;
+      background: #000000;
     }
 
     header h1 {
@@ -45,7 +45,7 @@
 
     .tarjeta {
       flex: 1 1 45%;
-      background: #111;
+      background: #111111;
       padding: 1.5rem;
       border-radius: 10px;
       box-shadow: 0 0 10px #f1c40f33;
@@ -56,19 +56,11 @@
       margin-bottom: 1rem;
     }
 
-    .tarjeta img {
-      width: 100%;
-      height: auto;
-      border-radius: 10px;
-      margin-bottom: 1rem;
-    }
-
     .tarjeta p {
       line-height: 1.5;
     }
 
-    .boton,
-    .pago {
+    .boton, .boton-paypal {
       display: inline-block;
       background: #f1c40f;
       color: #000;
@@ -77,11 +69,11 @@
       font-weight: bold;
       text-decoration: none;
       margin-top: 1.5rem;
+      text-align: center;
     }
 
-    .boton:hover,
-    .pago:hover {
-      background: #d4ac0d;
+    .boton-paypal {
+      margin-right: 1rem;
     }
 
     footer {
@@ -108,6 +100,11 @@
     .whatsapp:hover {
       background: #20b858;
     }
+
+    .pago {
+      margin-top: 3rem;
+      text-align: center;
+    }
   </style>
 </head>
 <body>
@@ -121,26 +118,28 @@
 
     <div class="seccion">
       <div class="tarjeta">
-        <img src="file-UQn66zRDfBPVCVeN5SgVMS" alt="Curso Avanzado">
         <h2>CURSO AVANZADO</h2>
         <p>
           Enfocado en fundamentos sólidos y proyectos reales.<br>
           Cursos de 3 a 6 meses.<br>
           Certificado y acceso a oportunidades laborales.
         </p>
-        <a class="pago" href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-27Y27559LY955542HNAOBRGI" target="_blank">Suscribirme al Curso Avanzado</a>
       </div>
 
       <div class="tarjeta">
-        <img src="file-YUTaRm3ULbAo2Z5hVKRAY9" alt="Curso Experto">
         <h2>CURSO EXPERTO</h2>
         <p>
           Desarrollo profesional: backend, APIs, y proyectos avanzados.<br>
           Postulaciones a empresas y asesoría en propuestas laborales.<br>
           Acceso exclusivo a herramientas y red profesional.
         </p>
-        <a class="pago" href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-42W834552H3420805NAOBT2I" target="_blank">Suscribirme al Curso Experto</a>
       </div>
+    </div>
+
+    <div class="pago">
+      <a class="boton-paypal" href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-27Y27559LY955542HNAOBRGI" target="_blank">Suscribirse al Plan Avanzado</a>
+      <a class="boton-paypal" href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-42W834552H3420805NAOBT2I" target="_blank">Suscribirse al Plan Experto</a>
+      <p style="color: #ffffffaa; margin-top: 1rem;">¿Problemas con el pago? Contáctanos a nuestro número: <strong>+506 7038 6023</strong></p>
     </div>
 
     <p><strong>No enseñamos lo básico. Enseñamos cómo ganar con código.</strong></p>
@@ -148,8 +147,6 @@
     <p>Maison du Code. Tu puerta a la élite tecnológica.</p>
 
     <a class="boton" href="https://wa.me/50670386023" target="_blank">Inscribirme ahora</a>
-
-    <p style="margin-top: 2rem;"><strong>¿Problemas con el pago? Contáctanos al <a href="https://wa.me/50670386023" style="color: #f1c40f;">+506 7038 6023</a></strong></p>
   </div>
 
   <footer>
