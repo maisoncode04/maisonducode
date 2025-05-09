@@ -45,16 +45,28 @@
 
     .tarjeta {
       flex: 1 1 45%;
-      background: #111111;
+      background: #111 url('https://www.transparenttextures.com/patterns/cubes.png') center/cover no-repeat;
       padding: 1.5rem;
       border-radius: 10px;
       box-shadow: 0 0 10px #f1c40f33;
+      color: #f1c40f;
+      position: relative;
+      overflow: hidden;
     }
 
-    .tarjeta img {
-      width: 100%;
-      border-radius: 8px;
-      margin-bottom: 1rem;
+    .tarjeta::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: url('https://i.ibb.co/9TcybrW/tech-overlay-dark.png') center/cover no-repeat;
+      opacity: 0.15;
+      z-index: 0;
+    }
+
+    .tarjeta * {
+      position: relative;
+      z-index: 1;
     }
 
     .tarjeta h2 {
@@ -124,7 +136,6 @@
 
     <div class="seccion">
       <div class="tarjeta">
-        <img src="https://www.freeimages.com/es/photo/abstract-network-technology-123456" alt="Curso Avanzado">
         <h2>CURSO AVANZADO</h2>
         <p>
           Enfocado en fundamentos sólidos y proyectos reales.<br>
@@ -134,7 +145,6 @@
       </div>
 
       <div class="tarjeta">
-        <img src="https://www.freeimages.com/es/photo/digital-sphere-technology-789012" alt="Curso Experto">
         <h2>CURSO EXPERTO</h2>
         <p>
           Desarrollo profesional: backend, APIs, y proyectos avanzados.<br>
