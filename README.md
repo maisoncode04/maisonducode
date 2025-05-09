@@ -51,6 +51,12 @@
       box-shadow: 0 0 10px #f1c40f33;
     }
 
+    .tarjeta img {
+      width: 100%;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+
     .tarjeta h2 {
       font-size: 1.5rem;
       margin-bottom: 1rem;
@@ -118,6 +124,7 @@
 
     <div class="seccion">
       <div class="tarjeta">
+        <img src="https://www.freeimages.com/es/photo/abstract-network-technology-123456" alt="Curso Avanzado">
         <h2>CURSO AVANZADO</h2>
         <p>
           Enfocado en fundamentos sólidos y proyectos reales.<br>
@@ -127,6 +134,7 @@
       </div>
 
       <div class="tarjeta">
+        <img src="https://www.freeimages.com/es/photo/digital-sphere-technology-789012" alt="Curso Experto">
         <h2>CURSO EXPERTO</h2>
         <p>
           Desarrollo profesional: backend, APIs, y proyectos avanzados.<br>
