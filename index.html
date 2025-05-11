@@ -4,13 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Maison du Code - Aprende a programar</title>
-  <style>.boton-azul {
-  background: #3498db;
-  color: #fff;
-}
-.boton-azul:hover {
-  background: #2980b9;
-}
+  <style>
     body {
       margin: 0;
       font-family: 'Georgia', serif;
@@ -21,7 +15,7 @@
     header {
       text-align: center;
       padding: 2rem;
-      background: #000000;
+      background: #000;
     }
 
     header h1 {
@@ -41,6 +35,24 @@
       margin: auto;
     }
 
+    .boton-azul {
+      display: block;
+      width: fit-content;
+      background: #3498db;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 2rem auto 0;
+      text-align: center;
+      transition: background 0.3s;
+    }
+
+    .boton-azul:hover {
+      background: #2980b9;
+    }
+
     .seccion {
       display: flex;
       flex-wrap: wrap;
@@ -51,7 +63,7 @@
 
     .tarjeta {
       flex: 1 1 45%;
-      background: #111111;
+      background: #111;
       padding: 1.5rem;
       border-radius: 10px;
       box-shadow: 0 0 10px #f1c40f33;
@@ -66,7 +78,7 @@
       line-height: 1.5;
     }
 
-    .boton, .boton-paypal {
+    .boton-paypal {
       display: inline-block;
       background: #f1c40f;
       color: #000;
@@ -74,12 +86,8 @@
       border-radius: 8px;
       font-weight: bold;
       text-decoration: none;
-      margin-top: 1.5rem;
+      margin: 1rem;
       text-align: center;
-    }
-
-    .boton-paypal {
-      margin-right: 1rem;
     }
 
     footer {
@@ -120,10 +128,11 @@
   </header>
 
   <div class="contenido">
-    <p>Curso 100% online en vivo y práctico. Desde nivel principiante hasta experto. Aprendé con apoyo personalizado y obtené experiencia real.</p>
 
-    <!-- Botón Inscribirme ahora MOVIDO AQUÍ -->
-    <a class="boton" href="https://wa.me/50670386023" target="_blank">Inscribirme ahora</a>
+    <!-- Botón de inscripción destacado -->
+    <a class="boton-azul" href="https://wa.me/50670386023" target="_blank">Inscribirme ahora</a>
+
+    <p>Curso 100% online en vivo y práctico. Desde nivel principiante hasta experto. Aprendé con apoyo personalizado y obtené experiencia real.</p>
 
     <div class="seccion">
       <div class="tarjeta">
@@ -154,6 +163,7 @@
     <p><strong>No enseñamos lo básico. Enseñamos cómo ganar con código.</strong></p>
     <p>Aprendé hoy lo que otros te enseñan en años.</p>
     <p>Maison du Code. Tu puerta a la élite tecnológica.</p>
+
   </div>
 
   <footer>
